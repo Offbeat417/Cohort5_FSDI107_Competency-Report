@@ -1,0 +1,50 @@
+nav {
+    box-shadow: 0px 2px 4px #ccc;
+}
+
+.catalog-container{
+    margin-top:15px;
+}
+
+.item{
+    display:inline-block;
+    margin-right:15px;
+    margin-bottom:15px;
+    border: 1px solid rgb(135, 135, 138);
+    border-radius:6px;
+    width:350px;
+    height:450px;
+    background-color:rgb(245, 244, 244);
+    box-shadow:2px 3px 4px rgb(173, 172, 172);
+}
+
+
+
+.item img{
+    width: 348px;
+    height:250px;
+    margin-bottom:15px;
+}
+
+.container{
+    background-color:rgb(245, 184, 131);
+}
+
+.item button{
+    margin-left:238px;
+    margin-bottom:10px;
+}
+
+h6{
+    color:rgb(25, 255, 4);
+}
+
+.btn{
+    margin-left:45px;
+    margin-top:-9px;
+}
+
+
+.btn-info{
+
+}

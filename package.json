@@ -1,0 +1,18 @@
+{
+  "name": "fsdi107.2",
+  "version": "1.2.2",
+  "description": "Version 2 of project 107 FSDI",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William I Reed IV",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.7",
+    "nodemon": "^1.19.4"
+  }
+}

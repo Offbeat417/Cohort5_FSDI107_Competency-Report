@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--styles-->
+    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <title>Contact Us!</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!--change color here-->
+
+        <a class="navbar-brand" href="#">
+            <Table>The Shop of Shops</Table>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.htm">Catalog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">Admin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/contact">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/admin">About Us</a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input id="txtSearch" class="form-control mr-sm-2" type="search" placeholder="Search"
+                    aria-label="Search">
+                <button id="btnSearch" class="btn btn-info my-2 my-sm-0" type="button">Search</button>
+            </form>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+
+<h4>Want to tell me something?</h4>
+    <div class="form-group row">
+        <label class="offset-2 col-3 col-form-label">Name:</label>
+        <div class="col-5">
+            <input id="txtName" type="text" class="form-control">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="offset-2 col-3 col-form-label">Mail:</label>
+        <div class="col-5">
+            <input id="txtMail" type="text" class="form-control">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="offset-2 col-3 col-form-label">Message:</label>
+        <div class="col-5">
+            <input id="txtMessage" type="text" class="form-control">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="offset-2 col-3 col-form-label">User:</label>
+        <div class="col-5">
+            <input id="txtUser" type="text" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col btn-container">
+            <button id="btnSave" type="button" class="btn btn-info">Send</button>
+        </div>
+    </div>
+
+
+
+    <!--scripts-->
+    <script src="scripts/jquery-3.4.1.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/contact.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+h1, h2 {
+    color: rgb(66, 181, 185);
+    text-align:center;
+}
+
+.col-7{
+    border-right: 1px solid #d8d8d8;
+
+}
+
+#messageList{
+    list-style-type:none;
+    padding-left:5px;
+}
+
+#messageList Li{
+    margin: 5px 0px;
+    background-color: #fafafa;
+    border: 1px solid #f0f0f0;
+    padding: 3px 8px;
+
+}
+
+#messageList Li:hover{
+    font-weight: bold;
+    border: 1px solid rgb(1, 84, 161);
+}
+
+nav {
+    box-shadow: 0px 2px 4px #ccc;
+}
+
+.catalog-container {
+    margin-top: 15px;
+}
+
+.item {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(135, 135, 138);
+    border-radius: 6px;
+    width: 350px;
+    height: 450px;
+    background-color: rgb(245, 244, 244);
+}
+
+
+
+.item img {
+    width: 348px;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+
+
+.item button {
+    margin-left: 238px;
+    margin-top:-10px;
+    margin-bottom: 15px;
+}
+
+h6 {
+    color: rgb(25, 255, 4);
+}
+
+label{
+    text-align:right;
+}
+
+.btn-container{
+    text-align:center;
+}
+
+.hide{
+    display:none;
+}
+
+
+.item-saved{
+    background-color:rgb(4, 255, 79);
+}
